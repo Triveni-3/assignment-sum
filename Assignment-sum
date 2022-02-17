@@ -1,0 +1,25 @@
+n=int(input("enter n:"))
+
+odd=[]
+
+even=[]
+
+total=0
+
+for i in range(n):
+
+    total +=i
+
+    if(i%2 == 0):
+
+        even.append(i)
+
+    else:
+
+        odd.append(i)
+
+        print("enter numbers:",*even)
+
+        print("odd numbers:",*odd)
+
+        print("total is:{}".format (total))
